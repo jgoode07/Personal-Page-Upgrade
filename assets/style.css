@@ -126,3 +126,61 @@ a {
   margin-bottom: 1rem;
   color: #444;
 }
+
+/* Dashboard */
+.dashboard-container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.dashboard-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap; /* Ensures it wraps nicely on smaller screens */
+}
+
+.dashboard-box {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Shorthand transform and box shadow */
+}
+
+.dashboard-box:hover {
+  transform: translateY(-3px); /* Pops up */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12); /* Slightly darkens the box shadow */
+}
+
+.dashboard-box .icon {
+  font-size: 1.5rem;
+  width: 30px; /* Slightly smaller icons, so shrinking allows more space before line break */
+  text-align: center;
+}
+
+/* Text inside dashboard */
+.text {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.big-number {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #222;
+  padding-right: 0.25rem;
+}
+
+/* Colours for icons */
+.blue i { color: #3b82f6; }
+.green i { color: #10b981; }
+.pink i { color: #ec4899; }
+.red i { color: #ef4444; }
+.purple i { color: #8b5cf6; }
+.yellow i { color: #f59e0b; }
