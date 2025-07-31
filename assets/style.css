@@ -1,4 +1,4 @@
-/* GLOBAL STYLES */
+/* Global Styles */
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f9fafb; /* Very light touch of blue */
@@ -8,7 +8,9 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Oswald", sans-serif;
   margin-bottom: 0.5rem;
   color: #065f46; /* Dark green accent */
@@ -18,4 +20,38 @@ a {
   color: #065f46;
   text-decoration: none;
   font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky; /* Nav scrolls with page */
+  top: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between; /* Push nav contents to each side */
+  align-items: center; /* Center content vertically */
+  padding: 0.75rem 1.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  font-family: "Great Vibes", cursive; /* Cursive placeholder text for now */
+  font-size: 1.8rem;
+  color: #065f46;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none; /* No underscores */
+  transition: color 0.2s; /* Smooth transition on hover */
+}
+
+.nav-links a:hover {
+  color: #065f46;
 }
