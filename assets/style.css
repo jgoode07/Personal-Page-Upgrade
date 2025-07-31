@@ -1,4 +1,4 @@
-/* Global Styles */
+/* GLOBAL STYLES */
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f9fafb; /* Very light touch of blue */
@@ -22,7 +22,7 @@ a {
   font-weight: 600;
 }
 
-/* Navbar */
+/* NAVBAR */
 .navbar {
   position: sticky; /* Nav scrolls with page */
   top: 0;
@@ -56,7 +56,7 @@ a {
   color: #065f46;
 }
 
-/* Hero */
+/* HERO */
 .hero {
   display: grid;
   grid-template-columns: 1fr 2fr; /* 1/3 image, 2/3 text */
@@ -107,7 +107,7 @@ a {
   background-color: #007a3d;
 }
 
-/* About */
+/* ABOUT */
 .about-section {
   max-width: 800px; /* Restrict about section width */
   margin: 3rem auto; /* Consistent top/bottom margin spacing, centered */
@@ -127,7 +127,7 @@ a {
   color: #444;
 }
 
-/* Dashboard */
+/* DASHBOARD */
 .dashboard-container {
   max-width: 900px;
   margin: 3rem auto;
@@ -178,9 +178,65 @@ a {
 }
 
 /* Colours for icons */
-.blue i { color: #3b82f6; }
-.green i { color: #10b981; }
-.pink i { color: #ec4899; }
-.red i { color: #ef4444; }
-.purple i { color: #8b5cf6; }
-.yellow i { color: #f59e0b; }
+.blue i {
+  color: #3b82f6;
+}
+.green i {
+  color: #10b981;
+}
+.pink i {
+  color: #ec4899;
+}
+.red i {
+  color: #ef4444;
+}
+.purple i {
+  color: #8b5cf6;
+}
+.yellow i {
+  color: #f59e0b;
+}
+
+/* THINGS SHARED */
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.share-section {
+  margin: 3rem auto;
+  padding: 0 2rem;
+  max-width: 1000px; /* A little larger than the dashboard section */
+}
+
+.share-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(450px, 1fr)
+  ); /* Using auto-fit with minmax makes the grid flexible */
+  gap: 2rem; /* More space between boxes */
+  margin-top: 1.5rem;
+}
+
+.share-box {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.share-box ul {
+  list-style: none; /* Removes bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.full-width {
+  grid-column: 1 / -1; /* Make this element stretch from the first to the last grid line */
+  margin-top: 0.5rem;
+}
+
+.subaru-skill {
+  background: #f8f8f8;
+  padding: 1.5rem;
+}
