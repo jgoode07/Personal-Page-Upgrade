@@ -1,0 +1,21 @@
+/* GLOBAL STYLES */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9fafb; /* Very light touch of blue */
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 0.5rem;
+  color: #065f46; /* Dark green accent */
+}
+
+a {
+  color: #065f46;
+  text-decoration: none;
+  font-weight: 600;
+}
