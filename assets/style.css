@@ -106,3 +106,23 @@ a {
 .btn:hover {
   background-color: #007a3d;
 }
+
+/* About */
+.about-section {
+  max-width: 800px; /* Restrict about section width */
+  margin: 3rem auto; /* Consistent top/bottom margin spacing, centered */
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  margin-bottom: 1rem;
+  color: #444;
+}
