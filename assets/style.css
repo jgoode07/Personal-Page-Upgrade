@@ -8,6 +8,10 @@ body {
   line-height: 1.6;
 }
 
+[id] {
+  scroll-margin-top: 80px; /* Fixes sticky header size difference using id's and links */
+}
+
 h1,
 h2,
 h3 {
@@ -237,6 +241,12 @@ a {
 }
 
 .subaru-skill {
-  background: #f8f8f8;
-  padding: 1.5rem;
+  background:
+    linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)),
+    url('./img/my_subaru.jpg') no-repeat; /* Fades in left to right */
+  background-size: cover;
+  background-position: center 50%; /* Drops image center */
+  padding: 2rem;
+  border-radius: 8px;
+  color: #333;
 }
