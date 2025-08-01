@@ -241,12 +241,46 @@ a {
 }
 
 .subaru-skill {
-  background:
-    linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)),
-    url('./img/my_subaru.jpg') no-repeat; /* Fades in left to right */
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0)
+    ),
+    url("./img/my_subaru.jpg") no-repeat; /* Fades in left to right */
   background-size: cover;
   background-position: center 50%; /* Drops image center */
   padding: 2rem;
   border-radius: 8px;
   color: #333;
+}
+
+/* CODEPEN */
+.codepen-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Even container sizes */
+  align-items: center;
+  gap: 4rem; /* Nice buffer between containers */
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.codepen-text {
+  padding: 5rem;
+}
+
+.codepen-text a {
+  color: #0ebeff; /* Nice bright blue for the link */
+  text-decoration: none;
+}
+
+.codepen-text a:hover {
+  text-decoration: underline;
+}
+
+.codepen-image img {
+  max-width: 80%; /* Don't let img take up too much space */
+  border-radius: 5px;
 }
