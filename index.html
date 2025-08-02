@@ -49,7 +49,7 @@
           <a href="#about" class="btn">Who I Am</a>
         </div>
       </section>
-      <article id="about" class="about-section">
+      <section id="about" class="about-section">
         <img
           src="./assets/img/profile-vertical.jpg"
           alt="Profile photo of me in my car"
@@ -71,7 +71,7 @@
           or tinkering with engines. I have a deep curiosity for how things work
           and a big appreciation for design that tells a story.
         </p>
-      </article>
+      </section>
       <div class="dashboard-container">
         <div class="dashboard-row">
           <!-- Provinces box -->
@@ -120,67 +120,70 @@
           </div>
         </div>
       </div>
-      <section id="things" class="share-section">
-        <h2 class="section-title">Things I'd Like to Share</h2>
-        <div class="share-grid">
-          <!-- Dream Travel Spots -->
-          <div class="share-box with-image">
-            <div class="text-content">
-              <h3>Dream Travel Spots</h3>
-              <ul>
-                <li>Cairo, Egypt</li>
-                <li>Santorini, Greece</li>
-                <li>Riviera Maya, Mexico</li>
-              </ul>
+      <article>
+        <section id="things" class="share-section">
+          <h2 class="section-title">Things I'd Like to Share</h2>
+          <div class="share-grid">
+            <!-- Dream Travel Spots -->
+            <div class="share-box with-image">
+              <div class="text-content">
+                <h3>Dream Travel Spots</h3>
+                <ul>
+                  <li>Cairo, Egypt</li>
+                  <li>Santorini, Greece</li>
+                  <li>Riviera Maya, Mexico</li>
+                </ul>
+              </div>
+              <div class="image-content">
+                <img src="./assets/img/travel.jpg" alt="Dream Travel Spots" />
+              </div>
             </div>
-            <div class="image-content">
-              <img src="./assets/img/travel.jpg" alt="Dream Travel Spots" />
-            </div>
-          </div>
 
-          <!-- Top 3 Favourite Movies -->
-          <div class="share-box with-image">
-            <div class="text-content">
-              <h3>Top 3 Favourite Movies</h3>
-              <ul>
-                <li><cite>GoldenEye</cite> (1995)</li>
-                <li><cite>The Fast and the Furious</cite> (2001)</li>
-                <li><cite>Aliens</cite> (1986)</li>
-              </ul>
-            </div>
-            <div class="image-content">
-              <img src="./assets/img/movies.jpg" alt="Movies I love" />
+            <!-- Top 3 Favourite Movies -->
+            <div class="share-box with-image">
+              <div class="text-content">
+                <h3>Top 3 Favourite Movies</h3>
+                <ul>
+                  <li><cite>GoldenEye</cite> (1995)</li>
+                  <li><cite>The Fast and the Furious</cite> (2001)</li>
+                  <li><cite>Aliens</cite> (1986)</li>
+                </ul>
+              </div>
+              <div class="image-content">
+                <img src="./assets/img/movies.jpg" alt="Movies I love" />
+              </div>
             </div>
           </div>
-        </div>
-        <!-- My Short Video -->
-        <div class="share-box with-video">
-          <div class="text-content">
-            <h3>Above the Fog of the Valley</h3>
+          <!-- My Short Video -->
+          <div class="share-box with-video">
+            <div class="text-content">
+              <h3>Above the Fog of the Valley</h3>
+              <p>
+                A quick flight with my DJI drone capturing the fog rolling
+                between the trees and mountains in the heart of Vancouver
+                Island.
+              </p>
+            </div>
+            <div class="video-content">
+              <video controls autoplay>
+                <source
+                  src="./assets/video/drone-subaru-fog.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <!-- Random skill (full width) -->
+          <div class="share-box full-width subaru-skill">
+            <h3>Random Skill</h3>
             <p>
-              A quick flight with my DJI drone capturing the fog rolling between
-              the trees and mountains in the heart of Vancouver Island.
+              Can fix a Subaru engine blindfolded<br />
+              (okay, maybe not blindfolded)
             </p>
           </div>
-          <div class="video-content">
-            <video controls autoplay>
-              <source
-                src="./assets/video/drone-subaru-fog.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-        <!-- Random skill (full width) -->
-        <div class="share-box full-width subaru-skill">
-          <h3>Random Skill</h3>
-          <p>
-            Can fix a Subaru engine blindfolded<br />
-            (okay, maybe not blindfolded)
-          </p>
-        </div>
-      </section>
+        </section>
+      </article>
       <section class="codepen-section">
         <div class="codepen-text">
           <h2>Link I Recommend</h2>
