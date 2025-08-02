@@ -118,7 +118,17 @@ a {
 
 .about-section h2 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
+}
+
+.profile-pic {
+  float: right;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;  /* Makes the image perfectly round */
+  object-fit: cover;   /* Keeps proportions while filling the circle */
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .about-section p {
