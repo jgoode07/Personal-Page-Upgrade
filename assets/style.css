@@ -63,52 +63,47 @@ a {
 
 /* HERO */
 .hero {
-  display: grid;
-  grid-template-columns: 1fr 2fr; /* 1/3 image, 2/3 text */
-  align-items: center;
-  gap: 0.25rem;
-  padding: 4rem;
+  height: 80vh; /* Viewport height to be more responsive */
+  background: url("./img/pano-drone.jpg") no-repeat center center/cover; /* Drone image of Port Alberni I took */
+  display: flex; /* Switch to flex over grid */
+  align-items: end; /* Push box to bottom */
+  justify-content: flex-start;
+  padding: 2rem 4rem;
 }
 
-.hero-image img {
-  width: 100%;
-  max-width: 300px; /* So image doesn't overstretch */
-  border-radius: 5px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Light shadow around image */
-}
-
-.hero-text {
-  background: #fff;
+.hero-content {
+  background: rgba(255, 255, 255, 0.6); /* light see-through box */
   padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Very light shadow around text box */
+  max-width: 450px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.hero-text h1 {
-  font-family: "Oswald", sans-serif;
+.hero-content h1 {
+  color: #222;
   font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #1e375a; /* Dark blue */
+  margin-top: 1rem;
 }
 
-.hero-text p {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.1rem;
+.hero-content p {
   color: #333;
-  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 .btn {
   display: inline-block;
-  background-color: #1e375a;
+  background: #1e90ff;
   color: #fff;
   padding: 0.75rem 1.5rem;
+  margin-top: 0.5rem;
   text-decoration: none;
   border-radius: 5px;
-  transition: background 0.3s ease; /* Shorthand transistion */
+  transition: background 0.3s ease; /* Shorthand transition */
 }
 
 .btn:hover {
-  background-color: #1e90ff;
+  background: #63b3ff;
 }
 
 /* ABOUT */
